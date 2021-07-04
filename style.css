@@ -1,0 +1,108 @@
+
+body{
+    margin: 0px;
+    font-family: 'Dancing Script', cursive;
+font-family: 'Libre Baskerville', serif;
+}
+
+#font-control{
+    font-size: 80px;
+}
+
+h1{
+    font-size: 50px;
+    
+}
+h4{
+    font-size: 20px;
+    text-shadow: 10px 10px 14px #000000;
+    
+}
+
+.intro{
+    
+    background-image: url(https://www.teahub.io/photos/full/7-70227_house-stark-game-of-thrones-wallpaper-hd-with.jpg);
+    background-size:cover;
+    background-position: center;
+    color: white;
+    height: 70vh;
+    text-align: center;
+    padding-top: 187px;
+    text-shadow: 10px 10px 14px #000000;
+    
+}
+
+.ned-stark{
+    display: flex;
+    background-color: rgb(167, 167, 167);
+}
+.catelyn-stark{
+    display: flex;
+    background-color: rgb(209, 195, 195);
+}
+.rob-stark{
+    display: flex;
+    padding-left: 30px;
+    background-color: rgb(167, 167, 167);
+}
+.sansa-stark{
+    display: flex;
+    background-color: rgb(209, 195, 195);
+}
+.aria-stark{
+    display: flex;
+    padding-left: 30px;
+    background-color: rgb(167, 167, 167);
+}
+.bran-stark{
+    display: flex;
+    background-color: rgb(209, 195, 195);
+}
+.half-width{
+    padding: 10px 10px;
+}
+
+.half-width img{
+  
+  width: 70%;
+  padding: 5px;
+}
+#rob-stark-image
+{   
+   padding: 15px;
+   margin-left: -20px;
+}
+#catelyn-stark-image{
+    width: 95%;
+    padding: 12px;
+}
+
+.card{
+    float: left;
+    width: 15%;
+    padding: 11px;
+    
+    
+}
+.card img{
+    margin-bottom: 0px;
+    overflow: hidden;
+}
+#card-design::after{
+    display: flex;
+    content: "";
+    clear: both;
+    display: table;
+    
+}
+#card-design{
+    background-color: #E4DED1
+}
+h5{
+    text-align: center;
+    background-color: rgb(33, 41, 41);
+    padding: 5px 5px ;
+    margin: 0px;
+    color: #ffffff;
+    text-decoration: none;
+}
